@@ -1,35 +1,10 @@
-vencimentomensal=valorhora*horasdetrabalho*dias
-nome="rafael wanderley vitor sa"
-print(valorhora)
-print(dias)
-print(horasdetrabalho)
-print(vencimentomensal)
-print(nome)
+from lib2to3.pgen2 import driver
+from selenium import webdriver
+import time
 
-numero1=11
-numero2=10
-
-print(numero1+numero2)
-print(numero1*numero2)
-print(numero1/numero2)
-
-float(valorhora)
-int(10.5)
-
-print(nome)
-lista=[1, 9, 5, "rafael", 8, 6, 25]
-
-print(lista)
-
-lista.append(20)
-
-print(lista)
-
-lista.append("python")
-print(lista)
-
-
-lista.index(5)
-lista.count(20)
-print(lista)
-lista.remove(4)
+class whatsappbot:
+    def_init_(self):
+    self.mensagem = "Bom dia pessoal"
+    self.grupos = [""]
+    options = webdriver.chromeOpitions()
+    options = 
