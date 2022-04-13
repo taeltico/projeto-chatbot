@@ -5,9 +5,9 @@ class whatsAppBot:
     def __init__(self):
      self.mensagem = "Bom dia pessoal"
      self.grupos = ["Bot Development Support"]
-    options = webdriver.chromeOpitions()
+    Options = webdriver.chromeOptions()
     options.add_argument('lang=pt-br')
-    self.driver = webdriver.chrome(executable_path=r'chromedriver.exe')
+    self.driver = webdriver.Chrome(executable_path=r'chromedriver.exe')
 
 def enviarMensagens(self):
 
